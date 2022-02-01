@@ -1,0 +1,75 @@
+@media only screen and (max-width: 479px) {
+.subscribe-form .form-group .theme-btn{
+    position:relative;
+    width:100%;
+}
+
+.subscribe-form .form-group{
+    padding-right:0px;
+}
+
+.subscribe-form .form-group input[type="email"]{
+    padding-right:15px;
+} 
+} 
+@media only screen and (max-width: 599px){
+    h4 {
+        font-size: 18px;
+    }
+    .home-section .home-content .heading{
+        font-size: 25px; 
+    }
+    h3{
+		font-size:22px;
+    }
+    h2{
+		font-size:28px;
+	}
+    h1{
+		font-size:26px;
+	}
+    p{
+        font-size:1vw;
+    }
+    .book-section {
+        margin-top: 30px;
+    }
+    .books-detail-section .content-column .inner-column{
+        position:relative;
+        padding-left:0px;
+    }
+    .social-box span a{
+        font-size: 18px;
+    }
+   
+    
+} 
+
+
+@media only screen and (max-width: 767px){
+    .comments-area .comment-box .author-thumb{
+		position:relative;
+	}
+	
+ .comments-area .comment{
+		padding-left:0px;
+    }
+     .comments-area .reply-comment{
+		margin-left:0px;
+    }
+    .book-block .image-box img{
+        width:100%;
+        height: 70%;
+    }
+}
+
+@media  (max-width: 575px) {
+  .personal-info ul li {
+    max-width: 100%;
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+  }
+  
+  }
+

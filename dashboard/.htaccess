@@ -1,0 +1,10 @@
+php_value max_execution_time 0
+
+ErrorDocument 404 https://blogcamp.uz/dashboard/404
+
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]  
+
